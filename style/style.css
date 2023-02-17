@@ -1,0 +1,693 @@
+/*-- importando fonts --*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
+
+/*--- Variables --*/
+:root{
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+
+/*--- basic ---*/
+body{
+    background: var(--body-bg-color);
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    position: absolute;
+    width: 23rem;
+    height: 3rem;
+    top: 11rem;
+    
+    left: 90px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29px;
+
+    color: var(--text-color);
+}
+/*-- Perfil --*/
+
+img.Image{
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    width: 8rem;
+    left: 8rem;
+    height: 8rem;
+    top: 3rem;
+    border-radius: 200px;
+    border: 2px solid #00FF00;
+}
+.perfil{
+    display: flex;
+    position: absolute;
+    display: inline-block;
+    background: var(--bg-cards);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 21.8rem;
+    height: 18.3rem;
+    left: 2.6rem;
+    top: 2.6rem;
+    
+    border-radius: 20px;
+}
+
+
+
+
+.perfil p {
+     position: absolute;
+     width: 21.8rem;
+     height: 18.3rem;
+     left: 9.6rem;
+     top:13.5rem;
+
+     font-family: 'Merriweather Sans';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 13px;
+     line-height: 16px;
+
+     color: var(--text-color);
+}
+
+/*--- Links e Icons ---*/
+a{
+    border: none;
+}
+
+.icons {
+    position: absolute;
+    width: 21.8rem;
+    height: 12rem;
+    left: 2.6rem;
+    top: 22.5rem;
+    border-radius: 20px;
+
+    background: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.icon-map-pin{
+    position: absolute;
+    width: 3.5rem;
+    height: 2rem;
+    left: 0.5rem;
+    top: 1rem;
+    
+    color: var(--text-color);
+}
+
+.icon-suitcase {
+    position: absolute;
+    width: 3.5rem;
+    height: 2rem;
+    left: 0.5rem;
+    top: 2.5rem;
+    
+    color: var(--text-color);
+}
+
+.icon-github {
+    position: absolute;
+    width: 3.5rem;
+    height: 2rem;
+    left: 0.5rem;
+    top: 4rem;
+    
+    color: var(--text-color);
+}
+
+.icon-linkedin {
+    position: absolute;
+    width: 3.5rem;
+    height: 2rem;
+    left: 0.5rem;
+    top: 5.2rem;
+    color: var(--text-color);
+}
+
+.icon-facebook {
+    position: absolute;
+    width: 3.5rem;
+    height: 2rem;
+    left: 0.5rem;
+    top: 6.5rem;
+    
+    color: var(--text-color);
+}
+.icon-instagram {
+    position: absolute;
+    width: 3.5rem;
+    height: 2rem;
+    left: 0.5rem;
+    top: 8rem;
+    
+    color: var(--text-color);
+}
+
+.icon-mail {
+    position: absolute;
+    width: 3.5rem;
+    height: 2rem;
+    left: 0.5rem;
+    top: 9.5rem;
+    
+    color: var(--text-color);
+}
+
+/*-- Links --*/
+
+div.icons a.links{
+    margin: 10px 20px 10px 5px;
+
+    font-family: 'Merriweather Sans';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 14px;
+     line-height: 16px;
+
+     color: var(--text-color);
+}
+
+/*-- Technologies --*/
+div.techs{
+    position: absolute;
+    width: 21.8rem;
+    height: 10rem;
+    left: 2.6rem;
+    top: 36rem;
+    display: flex;
+
+    background: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+div.techs h3.title{
+    width: 5rem;
+    height: 2rem;
+    left: 1.3rem;
+    top: 0rem;
+}
+
+.tech {
+    background: var(--bg-techs);
+    position: absolute;
+    width: 6rem;
+    height: 2rem;
+    left: 1.2rem;
+    top: 4.2rem;
+    border-radius: 25px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.html{
+    width: 4rem;
+    height: 2rem;
+    left: 7.7rem;
+    top: 4.2rem;
+    text-align: center;
+}
+.css{
+    width: 4rem;
+    height: 2rem;
+    left: 12.3rem;
+    top: 4.2rem;
+    text-align: center;
+}
+.git{
+    width: 4rem;
+    height: 2rem;
+    left: 7.7rem;
+    top: 7rem;
+    text-align: center;
+}
+.github{
+    width: 6rem;
+    height: 2rem;
+    left: 1.2rem;
+    top: 7rem;
+    text-align: center;
+}
+
+/*--- Experience ---*/
+div.xp{
+    position: absolute;
+    width: 21.8rem;
+    height: 8rem;
+    left: 2.6rem;
+    top: 48rem;
+    display: flex;
+
+    background: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+div.xp h3.title{
+    width: 5rem;
+    height: 2rem;
+    left: 1.3rem;
+    top: 0rem;
+}
+
+.conquest{
+    position: absolute;
+    width: 9rem;
+    height: 2rem;
+    left: 1.3rem;
+    top: 3.4rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: var(--text-color);
+}
+
+/*--- Education ---*/
+
+div.education{
+    position: absolute;
+    width: 21.8rem;
+    height: 10.2rem;
+    left: 2.6rem;
+    top: 930px;
+    display: flex;
+
+    background: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+div.education h3.title{
+    width: 8rem;
+    height: 8rem;
+    left: 1.6rem;
+    top: 0rem;
+}
+
+.educators {
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    left: 1.6rem;
+    top: 3rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: var(--text-color);
+}
+.educators li{
+    margin-top: 5px;
+}
+
+.educators li.rock{
+    font-size: 5px;
+}
+
+/*--- Projects ---*/
+.myProjects{
+    position: absolute;
+    width: 54rem;
+    height: 5.4rem;
+    left: 28rem;
+    top: 2.5rem;
+
+    background: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.projects{
+    display: flex;
+    position: absolute;
+    width: 28.3rem;
+    height:5.2rem;
+    left: 0rem;
+    top: 0rem;
+    border: none;
+    background: var(--bg-cards);
+    border-radius: 20px  0 0 20px;
+   
+}
+
+button{
+    display: flex;
+    position: absolute;
+    width: 14.6rem;
+    height: 5.4rem;
+    left: 38rem;
+    top: 0rem;
+    
+    background: var(--bg-cards);
+    border-radius:  0 20px 20px 0 ;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 80px;
+    
+    box-shadow: 0 0 0 0;
+    border: none;
+
+    color: var(--text-color);
+    padding: 0 80px 0;
+
+}
+
+
+/*--- Files ---*/
+.file1{
+    position: absolute;
+    width: 23rem;
+    height: 10.6rem;
+    left: 28rem;
+    top: 9.3rem;
+    display: flex;
+
+    background: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+a.file1 h6.title{
+    width: 80px;
+    height: 17px;
+    left: 55px;
+    top: 0px;
+
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.icon-folder{
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 30px;
+    top: 37px;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+a.file1 p.title{
+    width: 330px;
+    height: 50px;
+    left: 30px;
+    top: 50px;
+
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 20px
+}
+
+a.file1 div.icon-star-empty{
+    position: absolute;
+    left: 30px;
+    top: 130px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+a.file1 div.icon-git-branch{
+    position: absolute;
+    left: 90px;
+    top: 130px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+a.file1 .svg{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 17rem;
+    top: 130px;
+}
+
+a.file1 p.jsSvg{
+    width: 330px;
+    height: 50px;
+    left: 18.1rem;
+    top: 115px;
+
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 20px
+}
+
+.file2{
+    position: absolute;
+    width: 23rem;
+    height: 10.6rem;
+    left: 59rem;
+    top: 9.3rem;
+    display: flex;
+
+    background: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+a.file2 h6.title{
+    width: 80px;
+    height: 17px;
+    left: 55px;
+    top: 0px;
+
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a.file2 p.title{
+    width: 330px;
+    height: 50px;
+    left: 30px;
+    top: 50px;
+
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 20px
+}
+
+a.file2 div.icon-star-empty{
+    position: absolute;
+    left: 30px;
+    top: 130px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+a.file2 div.icon-git-branch{
+    position: absolute;
+    left: 90px;
+    top: 130px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+a.file2 .svg{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 17rem;
+    top: 130px;
+
+}
+
+a.file2 p.jsSvg{
+    width: 0.5rem;
+    height: 50px;
+    left: 18.1rem;
+    top: 115px;
+
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: 20px
+}
+
+.recent{
+    position: absolute;
+    width: 54rem;
+    height: 5.4rem;
+    left: 28rem;
+    top: 21.2rem;
+
+    background: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.recent p{
+    position: absolute;
+    width: 21.8rem;
+    height: 18.3rem;
+    left: 1rem;
+    top: 0.6rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: var(--text-color);
+}
+
+.post{
+    position: absolute;
+    width: 54rem;
+    height: 12.5rem;
+    top: 28.5rem;
+    left: 28rem;
+
+    background: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.post img.imagePost{
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    width: 6rem;
+    left: 2rem;
+    height: 6rem;
+    top: 1.5rem;
+    border-radius: 200px;
+}
+
+.post h6{
+    position: absolute;
+    width: 38.25rem;
+    height: 2.5rem;
+    left: 9rem;
+    top: 0rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.4375rem;
+
+    color: var(--text-color);
+}
+
+.post p{
+    position: absolute;
+    width: 30.18rem;
+    height: 1.25rem;
+    left: 9rem;
+    top: 6rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.99rem;
+    line-height: 1.125rem;
+
+    color: var(--text-color);
+}
+
+.post p.year{
+    position: absolute;
+    height: 5rem;
+    left: 9rem;
+    top: 3.5rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+
+    color: var(--text-color);
+}
+
+.post a.react{
+    position: absolute;
+    width: 6.875rem;
+    height: 1.3125rem;
+    left: 9rem;
+    top: 9rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+
+    color: var(--text-color);
+}
+
+.post a.genimotion{
+    position: absolute;
+    width: 6.875rem;
+    height: 1.3125rem;
+    left: 16rem;
+    top: 9rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+
+    color: var(--text-color);
+}
+
+.post a.genimotion2{
+    position: absolute;
+    width: 6.875rem;
+    height: 1.3125rem;
+    left: 24rem;
+    top: 9rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+
+    color: var(--text-color);
+}
+
+.post a.genimotion3{
+    position: absolute;
+    width: 6.875rem;
+    height: 1.3125rem;
+    left: 32rem;
+    top: 9rem;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+
+    color: var(--text-color);
+}
